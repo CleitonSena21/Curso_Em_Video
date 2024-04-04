@@ -30,7 +30,7 @@ span {
 header#cabecalho img#icone {
     position: absolute;
     top: 70px;
-    left: 890px;
+    left: 1100px;
 }
 
 header#cabecalho {
@@ -97,7 +97,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;  
     top: -20px;
-    left: 420px;
+    left: 680px;
 }
 
 nav#menu li {
@@ -123,4 +123,27 @@ nav#menu a {
 
 nav#menu a:hover {
     color: #fff;
+}
+
+section#corpo {
+    display:block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
 }
